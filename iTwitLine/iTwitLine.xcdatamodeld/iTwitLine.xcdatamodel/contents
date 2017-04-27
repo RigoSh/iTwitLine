@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Tweet" representedClassName="Tweet" syncable="YES" codeGenerationType="class">
+        <attribute name="commonText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tweetID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <fetchRequest name="ExpiredTweets" entity="Tweet" predicateString="createdDate &lt; $DATE"/>
+    <fetchRequest name="UserTweets" entity="Tweet" predicateString="userID == $USERID"/>
+    <elements>
+        <element name="Tweet" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
+</model>

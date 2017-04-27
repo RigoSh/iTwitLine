@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "032F1465712CDA97453E8A56829AF9E9CB8B9B21",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "032F1465712CDA97453E8A56829AF9E9CB8B9B21" : 9223372036854775807,
+    "9606E31C28CBAAFE753B3CACFED83CCC6FAB9935" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "854294F6-1B09-4B41-8044-7D5FE615DFB7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "032F1465712CDA97453E8A56829AF9E9CB8B9B21" : "iTwitLine\/",
+    "9606E31C28CBAAFE753B3CACFED83CCC6FAB9935" : "iTwitLine\/iTwitLine\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iTwitLine",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iTwitLine.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RigoSh\/iTwitLine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "032F1465712CDA97453E8A56829AF9E9CB8B9B21"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RigoSh\/iTwitLine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9606E31C28CBAAFE753B3CACFED83CCC6FAB9935"
+    }
+  ]
+}
